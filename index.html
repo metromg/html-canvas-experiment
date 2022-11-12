@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Brickman</title>
+    <style type="text/css">
+        body {
+            background-color: #303030;
+        }
+
+        .content {
+            width: 800px;
+            height: 600px;
+            position: absolute;
+            top: 50%;
+            margin-top: -300px;
+            left: 50%;
+            margin-left: -400px;
+        }
+
+        .hint-text {
+            color: white;
+            text-align: center;
+            font-family: Arial;
+        }
+        .hint-text a {
+            color: lightblue;
+        }
+    </style>
+    <script type="text/javascript" src="framework.js"></script>
+</head>
+<body>
+    <div class="content">
+        <canvas id="canvas">
+            You have an outdated browser. Please grab a modern browser to display this content!
+        </canvas>
+
+        <p class="hint-text">Game by Michael Günter, Free Music by <a href="https://freemusicarchive.org/music/Matt_Oakley/80s_TV_1">Matt Oakley</a> under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>
+
+        <script type="text/javascript" src="entity.js"></script>
+        <script type="text/javascript" src="gamestate.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </div>
+</body>
+</html>
